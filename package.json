@@ -1,0 +1,23 @@
+{
+  "name": "intro-to-js",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedHassouni/delme.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamedHassouni/delme.js/issues"
+  },
+  "homepage": "https://github.com/MohamedHassouni/delme.js#readme",
+  "description": "",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
