@@ -1,6 +1,9 @@
-console.log("main.js");
-function ciao(messaggio) {
-    console.log(`ciao ${messaggio}`);
-}
+const lista = document.querySelector(`#lista`);
 
-ciao('mondo')
+const nuovoElemento = document.createElement(`li`);
+
+nuovoElemento.textContent =`Tre`
+
+console.log (nuovoElemento);
+
+lista.appendChild(nuovoElemento);
